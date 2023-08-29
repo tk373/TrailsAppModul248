@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.maps h3{
+    text-align: center;
+}
+
+.viewHeader{
+    display: flex;
+    gap: 400px;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+}
+
+.maps .dest{
+    display: flex;
+    gap: 800px;
+}
+
+.maps .dest div{
+    width: 100%;
+}
+
+#map{
+    background-color: red;
+}
+
+.weathertime{
+    display: flex;
+    flex-direction: column;
+}
+
+.weathertime h3{
+    text-align: center;
+}
+
+.main h3{
+    font-size: 35px;
+}
+
+.main h1{
+    font-size: 45px;
+}
